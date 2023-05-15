@@ -32,6 +32,7 @@ This Python script prevents your Windows system from going to sleep while it's r
 
     ```bash
     pip install pystray pygetwindow
+    pip install pyautogui
     ```
 
 ## Usage
@@ -41,10 +42,10 @@ Run the script using Python:
 ```bash
 python prevent_sleep.py
 ```
-By default, the command prompt window will be hidden. If you want to show the command prompt window, run the script with the -v flag:
+By default, the command prompt window will be hidden. If you want to show the command prompt window, run the script with the -v flag, and for mouse simulation -m:
 
 ```bash
-python prevent_sleep.py -v
+python prevent_sleep.py -v -m 
 ```
 
 A system tray icon will appear while the script is running. To exit the program and restore the original sleep settings, right-click on the system tray icon and select "Exit".
