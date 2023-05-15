@@ -42,10 +42,10 @@ Run the script using Python:
 ```bash
 python prevent_sleep.py
 ```
-By default, the command prompt window will be hidden. If you want to show the command prompt window, run the script with the -v flag, and for mouse simulation -m:
+For mouse movement simulation instead of simulating video player use -m:
 
 ```bash
-python prevent_sleep.py -v -m 
+python prevent_sleep.py -m 
 ```
 
 A system tray icon will appear while the script is running. To exit the program and restore the original sleep settings, right-click on the system tray icon and select "Exit".
