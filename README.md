@@ -34,6 +34,10 @@ This Python script prevents your Windows system from going to sleep while it's r
     pip install pystray pygetwindow
     pip install pyautogui
     ```
+ 4. Make installer
+    ```bash
+    pyinstaller --onefile --windowed prevent_sleep.py
+    ```
 
 ## Usage
 
